@@ -8,10 +8,10 @@ The input file for this tool must come from Matrix Market and must be a vector o
 ### Installing Petsc
 You can check https://petsc.org/release/install/ for more details
 ### Copy and modify
-First, copy the project files to ${PETSC_DIR}/src/mat/tests. Then modify the makefile in the current directory: add readvec: readvec.o ex72mmio.o
+First, copy the project files to ${PETSC_DIR}/src/mat/tests. Then modify the makefile in the current directory: add "readvec: readvec.o ex72mmio.o"
 
 ## How to use
-Same as ex72, make file and then ./readvec -fin <infile> -fout <outfile>
+Same as ex72, make file and then "./readvec -fin <infile> -fout <outfile>"
 
 
 
